@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Task 2 — Component Library (Flexbox)</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <main class="components-page">
+    <h1 class="page__title">Task 2 — Flexbox Component Library</h1>
+
+    
+    <section class="component-section">
+      <div class="component-title">1. Navigation Bar</div>
+      <nav class="navbar">
+        <div class="navbar__logo">DevStudio</div>
+        <ul class="navbar__links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#">About Us</a></li>
+        </ul>
+        <div class="navbar__actions">
+          <button class="btn btn--outline">Log In</button>
+          <button class="btn">Sign Up</button>
+        </div>
+      </nav>
+    </section>
+
+  
+    <section class="component-section">
+      <div class="component-title">2. Card Row (Equal Height)</div>
+      <div class="card-row">
+        <div class="card">
+          <div class="card__body">
+            <h3>Short Card</h3>
+            <p>Basic description text.</p>
+          </div>
+          <button class="btn card__button">Action</button>
+        </div>
+        <div class="card">
+          <div class="card__body">
+            <h3>Long Content Card</h3>
+            <p>This card has significantly more content to demonstrate that all cards in the row match its height automatically, and buttons remain aligned at the bottom.</p>
+          </div>
+          <button class="btn card__button">Action</button>
+        </div>
+        <div class="card">
+          <div class="card__body">
+            <h3>Medium Card</h3>
+            <p>Another card with medium amount of content.</p>
+          </div>
+          <button class="btn card__button">Action</button>
+        </div>
+      </div>
+    </section>
+
+   
+    <section class="component-section">
+      <div class="component-title">3. Pagination Bar</div>
+      <div class="pagination">
+        <button class="btn">&laquo; Prev</button>
+        <div class="pagination__pages">
+          <button class="btn">1</button>
+          <button class="btn">2</button>
+          <button class="btn">3</button>
+        </div>
+        <button class="btn">Next &raquo;</button>
+        <div class="pagination__count">Showing 1-10 of 50 results</div>
+      </div>
+    </section>
+
+    
+    <section class="component-section">
+      <div class="component-title">4. Comment Block</div>
+      <div class="comment">
+        <div class="comment__avatar">DZ</div>
+        <div class="comment__content">
+          <h4>Daniyar Zhubanysh</h4>
+          <p>This text wraps cleanly beside the avatar and will never slide underneath it, even when the text is very long and spans multiple paragraphs.</p>
+        </div>
+      </div>
+    </section>
+
+    
+    <section class="component-section">
+      <div class="component-title">5. Pricing Table</div>
+      <div class="pricing-table">
+        <div class="pricing-card">
+          <h3>Basic</h3>
+          <p class="price">$10/mo</p>
+          <p>Standard features for small projects.</p>
+          <button class="btn">Choose</button>
+        </div>
+        <div class="pricing-card pricing-card--featured">
+          <h3>Pro (Recommended)</h3>
+          <p class="price">$25/mo</p>
+          <p>Advanced features with priority support and unlimited scale.</p>
+          <button class="btn">Choose Pro</button>
+        </div>
+        <div class="pricing-card">
+          <h3>Enterprise</h3>
+          <p class="price">$50/mo</p>
+          <p>Custom infrastructure and dedicated manager.</p>
+          <button class="btn">Choose</button>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
